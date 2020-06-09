@@ -10,7 +10,8 @@
 		"zip":"0001",
 		"country":"Viet Nam"
 	},
-	"language":["Java","Python","JavaScript"]
+	"language":["Java","Python","JavaScript"],
+	"email":"student1@gmail.com"
 },{
 	"id":15,
 	"firstName":"Duong",
@@ -23,5 +24,6 @@
 		"zip":"0001",
 		"country":"Viet Nam"
 	},
-	"language":["Java","Python","JavaScript"]
+	"language":["Java","Python","JavaScript"],
+	"email":"student2@hotmail.com"
 }]

@@ -5,10 +5,13 @@ package com.wst.demo.model;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  * @author TruongChinh
  *
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
 	private int id;
 	private String firstName;

@@ -17,7 +17,6 @@ public class Driver {
 		ObjectMapper mapper = new ObjectMapper();
 		
 		try {
-			@SuppressWarnings("unchecked")
 			List<Student> students = Arrays.asList(mapper.readValue(new File("data/sample-full.json"), Student[].class));
 			for(Student st: students) {
 				System.out.println(st.getLanguage().toString());
